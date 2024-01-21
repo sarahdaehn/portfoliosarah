@@ -16,10 +16,10 @@ function navigationBar() {
   return (
     <div id="home">
       <Navbar className="navigation_container" expand="md">
-      <Navbar.Brand href="#home"> Sarah Daehn</Navbar.Brand>
+      <Navbar.Brand style={{marginLeft: '1rem'}} href="#home"> Sarah Daehn</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse>
-        <Nav className='links'>
+      <Navbar.Collapse style={{justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none'}}>
+        <Nav className='links' style={{ margin: '0 1rem'}}>
        {createLinks()}
        </Nav>
       </Navbar.Collapse>
