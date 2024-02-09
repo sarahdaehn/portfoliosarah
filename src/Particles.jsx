@@ -130,4 +130,6 @@ export default class Particles extends React.Component {
     return <canvas id="particles"></canvas>;
   }
 }
- 
+
+
+
